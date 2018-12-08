@@ -135,7 +135,7 @@ class materials_controller extends Controller
     {
     	materials::where('materials_id', $materials_id)->delete();
         images::where('materials_id', $materials_id)->delete();
-		ordermaterials::where('materials_id', $materials_id)->delete();
+		base64::where('materials_id', $materials_id)->delete();
 
     	Session::flash('pesan', 'Successfully deleted.');
 

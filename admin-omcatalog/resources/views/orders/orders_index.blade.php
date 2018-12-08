@@ -13,7 +13,7 @@
                 <!--<span style="color: red;"><small>*Click name for details</small></span>-->
                 <thead>
                   <tr>
-                    <th>#</th>
+                    <th>Order ID</th>
                     <th>Name</th>
                     <th>Total Pay</th>
                     <th>Date</th>
@@ -23,7 +23,7 @@
                 <tbody>
                 @foreach($confirmationss as $index=>$confirmations)
                 <tr>
-                  <td>{{ $index+1 }}</td>
+                  <td>{{ $confirmations->orders->orders_id }}</td>
                   <?php
                     $user = \DB::table('users')->where('users_id', $confirmations->users_id)->value('name');
                   ?>

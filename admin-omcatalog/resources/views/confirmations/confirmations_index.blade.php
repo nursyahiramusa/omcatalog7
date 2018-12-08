@@ -38,7 +38,7 @@
                     $user = \DB::table('users')->where('users_id', $confirmations->users_id)->value('name');
                   ?>
                   <td class="confirmations" orders-id="{{ $confirmations->orders_id }}" style="cursor: pointer; color: blue;">{{ $user }}</td>
-                  <td>Rp. {{ number_format($confirmations->orders->totalPay, 0) }}</td>
+                  <td>RM {{ number_format($confirmations->orders->totalPay, 0) }}</td>
                   <td>{{ $confirmations->orders->date }}</td>
                   <?php
                       $status = $confirmations->orders->status->status_invoice_id;
@@ -138,7 +138,7 @@
             <!-- /.modal-content -->
           </div>
           <!-- /.modal-dialog -->
-        </div>-->
+        </div>
         <!-- /.modal -->
 
 @endsection

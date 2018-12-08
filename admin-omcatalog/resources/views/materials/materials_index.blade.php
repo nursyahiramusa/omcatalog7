@@ -12,7 +12,7 @@
               <table class="table table-hover" id="example1">
                 <thead>
                   <tr>
-                    <th>#</th>
+                    <th>Material ID</th>
                     <th>Name</th>
                     <th>Price</th>
                     <th>Categories</th>
@@ -30,7 +30,7 @@
                     }
                 ?>
                 <tr style="color: {{ $color }}">
-                  <td>{{ $index+1 }}</td>
+				  <td>{{ $materials->materials_id }}</td>
                   <td>{{ $materials->name }}</td>
                   <td>{{ $materials->price }}</td>
                   <td>{{ $materials->categories->name }}</td>

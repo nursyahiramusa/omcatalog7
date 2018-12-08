@@ -15,14 +15,14 @@
               <table class="table table-hover" id="example1">
                 <thead>
                   <tr>
-                    <th>#</th>
-                    <th>name</th>
+                    <th>Category ID</th>
+                    <th>Name</th>
                     <th>Action</th>
                   </tr></thead>
                 <tbody>
                 @foreach($categoriess as $index=>$categories)
                 <tr>
-                  <td>{{ $index+1 }}</td>
+				  <td>{{ $categories->categories_id }}</td>
                   <td>{{ $categories->name }}</td>
                   <td>
                     <a href="{{ url('categories/edit/'.$categories->categories_id) }}"><i class="fa fa-fw fa-edit"></i></a>
