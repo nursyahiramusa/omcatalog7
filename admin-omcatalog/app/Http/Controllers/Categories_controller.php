@@ -7,6 +7,8 @@ use Session;
 
 use App\Models\Categories;
 use App\Models\Materials;
+use App\Models\Images;
+use App\Models\Base64;
 
 class categories_controller extends Controller
 {
@@ -14,8 +16,9 @@ class categories_controller extends Controller
     {
     	$title = 'List of Categories';
     	$categoriess = categories::orderBy('name', 'asc')->get();
+		$materialss = materials::orderBy('name', 'asc')->get();
 
-    	return view('categories.categories_index', compact('title', 'categoriess'));
+    	return view('categories.categories_index', compact('title', 'categoriess','materialss'));
     }
 
     public function create()
@@ -59,10 +62,12 @@ class categories_controller extends Controller
     	return redirect('categories');
     }
 
-    public function delete($categories_id)
+    public function delete($materials_id,$categories_id)
     {
+		//images::where('materials_id', $materials_id)->delete();
+		//base64::where('materials_id', $materials_id)->delete();
+		materials::where('categories_id', $categories_id)->delete();
     	categories::where('categories_id', $categories_id)->delete();
-    	materials::where('categories_id', $categories_id)->delete();
 
     	Session::flash('pesan', 'Successfully deleted.');
 

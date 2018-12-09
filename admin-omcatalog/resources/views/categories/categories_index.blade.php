@@ -26,10 +26,11 @@
                   <td>{{ $categories->name }}</td>
                   <td>
                     <a href="{{ url('categories/edit/'.$categories->categories_id) }}"><i class="fa fa-fw fa-edit"></i></a>
-                    <a href="" class="hapusBarang" categories-id="{{ $categories->categories_id }}"><i class="fa fa-fw fa-trash"></i></a>
-                  </td>
+					<a href="" categories-id="{{ $categories->categories_id }}"><i class="fa fa-fw fa-trash"></i></a>
+					<!--<a href="{{ action('categories_controller@delete', ['materials'=>$categories->categories_id, 'id'=>$categories->categories_id]) }}" categories-id="{{ $categories->categories_id }}" categories-id="{{ $categories->categories_id }}"><i class="fa fa-fw fa-trash"></i></a>-->
+				  </td>
                 </tr>
-                @endforeach
+                	@endforeach
               </tbody>
             </table>
             </div>

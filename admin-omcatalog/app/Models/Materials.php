@@ -19,6 +19,12 @@ class Materials extends Model
     {
     	return $this->hasOne('App\Models\Images', 'materials_id', 'materials_id');
     }
+	
+	public function base64()
+    {
+		
+    	return $this->hasOne('App\Models\Images', 'materials_id', 'materials_id');
+    }
 
     public function status()
     {

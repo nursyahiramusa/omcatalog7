@@ -35,7 +35,7 @@
                   <td>{{ $materials->price }}</td>
                   <td>{{ $materials->categories->name }}</td>
                   <td>{{ $materials->stock }}</td>
-                  <td><span class="badge bg-{{ ($materials->status_id) == 1 ? 'green' : 'red' }}">{{ $materials->statuss['name'] }}</span></td>
+                  <td><span class="badge bg-{{ ($materials->status_id) == 1 ? 'green' : 'red' }}">{{ $materials->status['name'] }}</span></td>
                   <td>
                     <a href="{{ url('materials/edit/'.$materials->materials_id) }}"><i class="fa fa-fw fa-edit"></i></a>
                     <a href="" class="hapusmaterials" materials-id="{{ $materials->materials_id }}"><i class="fa fa-fw fa-trash"></i></a>
