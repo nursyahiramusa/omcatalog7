@@ -61,8 +61,9 @@
         <div class="form-group">
           <label for="exampleInputEmail1">Status</label>
           <select name="status" class="form-control select2">
-            <option value="1">Hide</option>
-            <option value="2">Show</option>
+			<option value="-1"></option>
+            <option value="1">Show</option>
+            <option value="2">Hide</option>
           </select>
           @if ($errors->has('status_ID'))
                         <span class="help-block">

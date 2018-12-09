@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 08, 2018 at 08:00 PM
+-- Generation Time: Dec 09, 2018 at 03:51 AM
 -- Server version: 10.1.36-MariaDB
 -- PHP Version: 7.2.11
 
@@ -64,28 +64,16 @@ CREATE TABLE `base64` (
 --
 
 INSERT INTO `base64` (`base64_id`, `materials_id`, `name`) VALUES
-(2, 21, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1L29tY2F0YWxvZzMvYWRtaW4tb21jYXRhbG9nL3B1YmxpYy9pbWFnZS9ob3Nlcy91dGlsaXR5aG9zZS8yMS5qcGc='),
-(3, 22, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1L29tY2F0YWxvZzMvYWRtaW4tb21jYXRhbG9nL3B1YmxpYy9pbWFnZS9oc2UvYm9vdHMvMjIuanBn'),
-(4, 23, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1L29tY2F0YWxvZzMvYWRtaW4tb21jYXRhbG9nL3B1YmxpYy9pbWFnZS9sb29zZXRvb2xzLzIzLmpwZw=='),
-(5, 24, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1L29tY2F0YWxvZzMvYWRtaW4tb21jYXRhbG9nL3B1YmxpYy9pbWFnZS9sYWIvY2FyYm9ucHJldHViZS8yNC5qcGc='),
-(6, 25, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1L29tY2F0YWxvZzMvYWRtaW4tb21jYXRhbG9nL3B1YmxpYy9pbWFnZS9vdGhlcnMvMjUuanBn'),
-(7, 26, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1L29tY2F0YWxvZzMvYWRtaW4tb21jYXRhbG9nL3B1YmxpYy9pbWFnZS9sdWJyaWNhbnQvMjYuanBn'),
-(8, 27, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1L29tY2F0YWxvZzMvYWRtaW4tb21jYXRhbG9nL3B1YmxpYy9pbWFnZS9ob3Nlcy9xdWlja2NvdXBpbmcvMjcuanBn'),
-(9, 28, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1L29tY2F0YWxvZzMvYWRtaW4tb21jYXRhbG9nL3B1YmxpYy9pbWFnZS9ob3Nlcy91dGlsaXR5aG9zZS8yOC5qcGc='),
-(10, 29, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1L29tY2F0YWxvZzMvYWRtaW4tb21jYXRhbG9nL3B1YmxpYy9pbWFnZS9oc2UvZmFjZXNoaWVsZC8yOS5qcGc='),
-(11, 30, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1L29tY2F0YWxvZzMvYWRtaW4tb21jYXRhbG9nL3B1YmxpYy9pbWFnZS9sYWIvc2FtcGxpbmdjYW4vMzAuanBn'),
-(12, 31, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzUvaW1hZ2UvUXVvdGVmYW5jeS0yMzc4MzI0LTM4NDB4MjE2MC5qcGc='),
-(13, 32, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzUvaW1hZ2UvUXVvdGVmYW5jeS0yMzc4MzI0LTM4NDB4MjE2MC5qcGc='),
-(14, 33, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzUvaW1hZ2UvUXVvdGVmYW5jeS0yMzc4MzI0LTM4NDB4MjE2MC5qcGc='),
-(15, 34, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzUvaW1hZ2UvUXVvdGVmYW5jeS0yMzc4MzI0LTM4NDB4MjE2MC5qcGc='),
-(16, 35, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzUvaW1hZ2UvUXVvdGVmYW5jeS0yMzc4MzI0LTM4NDB4MjE2MC5qcGc='),
-(17, 36, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzUvaW1hZ2UvNWM0M2Q4YzE3NTRkZGFjNTliZTdiZjRkNGQwYzlhYmMuanBn'),
-(18, 37, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzUvaW1hZ2UvUXVvdGVmYW5jeS0yMzc4MzI0LTM4NDB4MjE2MC5qcGc='),
-(19, 38, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzUvaW1hZ2UvUXVvdGVmYW5jeS0yMzc4MzI0LTM4NDB4MjE2MC5qcGc='),
-(20, 39, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzUvaW1hZ2UvUXVvdGVmYW5jeS0yMzc4MzI0LTM4NDB4MjE2MC5qcGc='),
-(21, 40, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzUvaW1hZ2UvUXVvdGVmYW5jeS0yMzc4MzI0LTM4NDB4MjE2MC5qcGc='),
-(22, 41, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzUvaW1hZ2UvUXVvdGVmYW5jeS0yMzc4MzI0LTM4NDB4MjE2MC5qcGc='),
-(23, 42, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzUvaW1hZ2UvUXVvdGVmYW5jeS0yMzc4MzI0LTM4NDB4MjE2MC5qcGc=');
+(2, 21, 'aHR0cDovL2xvY2FsaG9zdC9vbWNhdGFsb2c3L2FkbWluLW9tY2F0YWxvZy9wdWJsaWMvaW1hZ2UvaG9zZXMvdXRpbGl0eWhvc2UvMjEuanBn'),
+(3, 22, 'aHR0cDovL2xvY2FsaG9zdC9vbWNhdGFsb2c3L2FkbWluLW9tY2F0YWxvZy9wdWJsaWMvaW1hZ2UvaHNlL2Jvb3RzLzIyLmpwZw=='),
+(4, 23, 'aHR0cDovL2xvY2FsaG9zdC9vbWNhdGFsb2c3L2FkbWluLW9tY2F0YWxvZy9wdWJsaWMvaW1hZ2UvbG9vc2V0b29scy8yMy5qcGc='),
+(5, 24, 'aHR0cDovL2xvY2FsaG9zdC9vbWNhdGFsb2c3L2FkbWluLW9tY2F0YWxvZy9wdWJsaWMvaW1hZ2UvbGFiL2NhcmJvbnByZXR1YmUvMjQuanBn'),
+(6, 25, 'aHR0cDovL2xvY2FsaG9zdC9vbWNhdGFsb2c3L2FkbWluLW9tY2F0YWxvZy9wdWJsaWMvaW1hZ2Uvb3RoZXJzLzI1LmpwZw=='),
+(7, 26, 'aHR0cDovL2xvY2FsaG9zdC9vbWNhdGFsb2c3L2FkbWluLW9tY2F0YWxvZy9wdWJsaWMvaW1hZ2UvbHVicmljYW50LzI2LmpwZw=='),
+(8, 27, 'aHR0cDovL2xvY2FsaG9zdC9vbWNhdGFsb2c3L2FkbWluLW9tY2F0YWxvZy9wdWJsaWMvaW1hZ2UvaG9zZXMvcXVpY2tjb3VwaW5nLzI3LmpwZw=='),
+(9, 28, 'aHR0cDovL2xvY2FsaG9zdC9vbWNhdGFsb2c3L2FkbWluLW9tY2F0YWxvZy9wdWJsaWMvaW1hZ2UvaG9zZXMvdXRpbGl0eWhvc2UvMjguanBn'),
+(10, 29, 'aHR0cDovL2xvY2FsaG9zdC9vbWNhdGFsb2c3L2FkbWluLW9tY2F0YWxvZy9wdWJsaWMvaW1hZ2UvaHNlL2ZhY2VzaGllbGQvMjkuanBn'),
+(11, 30, 'aHR0cDovL2xvY2FsaG9zdC9vbWNhdGFsb2c3L2FkbWluLW9tY2F0YWxvZy9wdWJsaWMvaW1hZ2UvbGFiL3NhbXBsaW5nY2FuLzMwLmpwZw==');
 
 -- --------------------------------------------------------
 
@@ -138,7 +126,11 @@ CREATE TABLE `confirmations` (
 
 INSERT INTO `confirmations` (`confirmations_id`, `users_id`, `orders_id`, `images`) VALUES
 (6, 1, 36, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzQvaW1hZ2UvUXVvdGVmYW5jeS0yMzc4MzI0LTM4NDB4MjE2MC5qcGc='),
-(7, 2, 33, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzQvaW1hZ2UvNWM0M2Q4YzE3NTRkZGFjNTliZTdiZjRkNGQwYzlhYmMuanBn');
+(7, 2, 33, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzQvaW1hZ2UvNWM0M2Q4YzE3NTRkZGFjNTliZTdiZjRkNGQwYzlhYmMuanBn'),
+(8, 2, 33, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzUvaW1hZ2UvNWM0M2Q4YzE3NTRkZGFjNTliZTdiZjRkNGQwYzlhYmMuanBn'),
+(9, 2, 37, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzUvaW1hZ2UvNWM0M2Q4YzE3NTRkZGFjNTliZTdiZjRkNGQwYzlhYmMuanBn'),
+(10, 2, 38, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzUvaW1hZ2UvNWM0M2Q4YzE3NTRkZGFjNTliZTdiZjRkNGQwYzlhYmMuanBn'),
+(11, 2, 39, 'aHR0cDovLzE5Mi4xNjguNDMuMTg1OjEzMzUvaW1hZ2UvNWM0M2Q4YzE3NTRkZGFjNTliZTdiZjRkNGQwYzlhYmMuanBn');
 
 -- --------------------------------------------------------
 
@@ -225,7 +217,10 @@ INSERT INTO `ordermaterials` (`ordermaterials_id`, `orders_id`, `materials_id`, 
 (12, 32, 22, 1, '292.00'),
 (13, 33, 30, 2, '200.00'),
 (15, 35, 29, 1, '33.00'),
-(16, 36, 30, 1, '100.00');
+(16, 36, 30, 1, '100.00'),
+(17, 37, 28, 1, '40.00'),
+(18, 38, 23, 1, '90.00'),
+(19, 39, 22, 1, '292.00');
 
 -- --------------------------------------------------------
 
@@ -252,7 +247,10 @@ INSERT INTO `orders` (`orders_id`, `users_id`, `receiver_name`, `address`, `tota
 (33, 2, 'sabrina', 'usj', '200.00', 3, '2018-12-08'),
 (34, 2, 'sabrina', 'usj', '12.00', 2, '2018-12-08'),
 (35, 1, 'Aina', '12', '33.00', 2, '2018-12-08'),
-(36, 1, 'Aina', 'd', '100.00', 3, '2018-12-08');
+(36, 1, 'Aina', 'd', '100.00', 3, '2018-12-08'),
+(37, 2, 'sabrina', 'usj', '40.00', 4, '2018-12-08'),
+(38, 2, 'comel', 'usj', '90.00', 4, '2018-12-08'),
+(39, 2, 'sabrina', 'memey', '292.00', 4, '2018-12-08');
 
 -- --------------------------------------------------------
 
@@ -411,43 +409,43 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `base64`
 --
 ALTER TABLE `base64`
-  MODIFY `base64_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `base64_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `categories_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `categories_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT for table `confirmations`
 --
 ALTER TABLE `confirmations`
-  MODIFY `confirmations_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `confirmations_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `images`
 --
 ALTER TABLE `images`
-  MODIFY `images_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `images_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 
 --
 -- AUTO_INCREMENT for table `materials`
 --
 ALTER TABLE `materials`
-  MODIFY `materials_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=43;
+  MODIFY `materials_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
 
 --
 -- AUTO_INCREMENT for table `ordermaterials`
 --
 ALTER TABLE `ordermaterials`
-  MODIFY `ordermaterials_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `ordermaterials_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `orders_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+  MODIFY `orders_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
 
 --
 -- AUTO_INCREMENT for table `status`

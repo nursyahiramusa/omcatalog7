@@ -54,7 +54,7 @@ Route::group(['middleware'=>'auth'], function(){
 	// Update categories
 	Route::post('/categories/update/{id}', 'categories_controller@update');
 	// Hapus categories
-	Route::get('/categories/delete/{id}', 'categories_controller@delete');
+	Route::get('/categories/delete/{categories_id}', 'categories_controller@delete');
 	// categories Create
 	Route::get('/categories/create', 'categories_controller@create');
 	// categories Store
