@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('content')
-
+<h4>Products </h4>
+<div class="span9">
 <ul class="thumbnails">
 @foreach($materialss->chunk(3) as $materialsChunk)
 <div class="row">
@@ -23,11 +24,17 @@
 		  </h4>
 		</div>
 	  </div>
+        <br>
 	</li>
+    
 	@endforeach
 </div>
 @endforeach
 </ul>
+</div>
+
+	
+	
 
 
 @endsection

@@ -7,21 +7,60 @@
 <div id="header">
 <div class="container">
 <div id="welcomeLine" class="row">
-	<div class="span6">Welcome!<strong></strong></div>
-	<div class="span6">
+    	
+	<div class="span12">
 	<div class="pull-right">
-		<a href="{{ url('shopping-cart') }}"><span class="btn btn-mini btn-primary"><i class="icon-shopping-cart icon-white"></i> [ {{ count(Cart::content()) }} ] Items in your cart </span> </a> 
+		<a href="{{ url('shopping-cart') }}"><span class="btn btn-mini btn-primary "><i class="icon-shopping-cart icon-white"></i> [ {{ count(Cart::content()) }} ] Items in your cart </span> </a> 
 	</div>
 	</div>
 </div>
 <!-- Navbar ================================================== -->
 <div id="logoArea" class="navbar">
-@include('layouts.navbar')
+            
+            @include('layouts.navbar')
+    
 </div>
 </div>
 </div>
-<!-- Header End====================================================================== -->
 
+<!-- Header End====================================================================== -->
+<div id="carouselBlk">
+	<div id="myCarousel" class="carousel slide">
+		<div class="carousel-inner">
+		  <div class="item active">
+		  <div class="container">
+			<img style="width:100%" src="{{asset('bootshop/themes/images/carousel/banner1.png')}}" alt="special offers"/>
+			<div class="carousel-caption">
+				  <h4>Second Thumbnail label</h4>
+				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+				</div>
+		  </div>
+		  </div>
+		  <div class="item">
+		  <div class="container">
+			<img style="width:100%" src="{{asset('bootshop/themes/images/carousel/banner2.png')}}" alt=""/>
+				<div class="carousel-caption">
+				  <h4>Second Thumbnail label</h4>
+				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+				</div>
+		  </div>
+		  </div>
+		  <div class="item">
+		  <div class="container">
+			<img src="{{asset('bootshop/themes/images/carousel/banner3.png')}}" alt=""/>
+			<div class="carousel-caption">
+				  <h4>Second Thumbnail label</h4>
+				  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+				</div>
+			
+		  </div>
+		  </div>
+		   
+
+		</div>
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+	  </div>
 <div id="mainBody">
 	<div class="container">
 	<div class="row">
@@ -92,8 +131,11 @@
 		</div>
 
 		<!-- Latest Products ===================================================== -->
-
-			  @yield('content')	
+            
+            @yield('content')
+           
+                
+			  
 
 		<!-- End Latest Products ================================================== -->
 		</div>
@@ -142,7 +184,7 @@
 	@yield('scripts')
 	
 	<!-- Themes switcher section ============================================================================================= -->
-
+    </div>
 <span id="themesBtn"></span>
 </body>
 </html>

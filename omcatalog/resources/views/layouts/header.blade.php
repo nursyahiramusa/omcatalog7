@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-    <title>Bootshop online Shopping cart</title>
+    <title>OMC&trade; - Operational Material Catalog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -29,3 +29,4 @@
     <link rel="apple-touch-icon-precomposed" href="{{asset('bootshop/themes/images/ico/apple-touch-icon-57-precomposed.png')}}">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
 	<style type="text/css" id="enject"></style>
+    <link rel="shortcut icon" href="{{asset('bootshop/themes/images/icon2.png')}}" type="image/png">

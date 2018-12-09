@@ -7,7 +7,7 @@
 	<?php
 		$jumlah = \DB::table('materials')->where('categories_id', $categories->categories_id)->where('status_id', 1)->get();
 	?>
-	<li><a href="{{ url('materials/categories/'.$categories->categories_id) }}">{{$categories->name}} [{{count($jumlah)}}]</a></li>
+	<li ><a href="{{ url('materials/categories/'.$categories->categories_id) }}">{{$categories->name}} [{{count($jumlah)}}]</a></li>
 @endforeach
 </ul>
 <br/>
@@ -27,5 +27,7 @@
 			</div>
 		</h4>
 	</div>
+      
   </div>
+<br>
  @endforeach
